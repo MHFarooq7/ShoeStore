@@ -1,0 +1,8 @@
+1. From the root of the project
+
+Run : php bin/behat
+
+2. Add @javascript tag if you want to run using firefox.
+3. In a different command line tab run selenium standalone jar file
+
+e.g java -jar filename.jar
