@@ -1,0 +1,30 @@
+default: 
+  paths: 
+    features: features 
+    bootstrap: %behat.paths.features%/bootstrap 
+  extensions: 
+    Behat\MinkExtension\Extension: 
+      goutte: ~ 
+      selenium2: ~ 
+<<<<<<< HEAD
+      base_url: http://ec2-52-87-2-19.compute-1.amazonaws.com
+=======
+      base_url: http://ec2-52-20-224-49.compute-1.amazonaws.com/
+>>>>>>> master
+
+phantomjs:
+  context:
+    class: 'FeatureContext'
+  paths: 
+    features: features 
+    bootstrap: %behat.paths.features%/bootstrap 
+  extensions: 
+    Behat\MinkExtension\Extension: 
+      goutte: ~ 
+      selenium2: 
+        wd_host: "http://localhost:8643/wd/hub"
+<<<<<<< HEAD
+      base_url: http://ec2-52-87-2-19.compute-1.amazonaws.com
+=======
+      base_url: http://ec2-52-20-224-49.compute-1.amazonaws.com/
+>>>>>>> master
